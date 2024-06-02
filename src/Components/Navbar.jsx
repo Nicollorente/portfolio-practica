@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { changeTabActive } from "./redux/actions";
-import HamburgerIcon from "./HamburgerIcon";
+// import HamburgerIcon from "./HamburgerIcon";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="icon-bar">
-        <HamburgerIcon clicked={clicked} handleClick={handleClick} />
+        {/* <HamburgerIcon clicked={clicked} handleClick={handleClick} /> */}
       </div>
     </header>
   );
