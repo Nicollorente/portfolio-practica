@@ -4,7 +4,7 @@ export default {
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['web-vitals','redux','@fortawesome/free-brands-svg-icons','styled-components']
+      external: ['web-vitals','redux','@fortawesome/free-brands-svg-icons']
     }
   }
 };
