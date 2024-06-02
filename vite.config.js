@@ -4,7 +4,7 @@ export default {
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['web-vitals']
+      external: ['web-vitals','redux']
     }
   }
 };
