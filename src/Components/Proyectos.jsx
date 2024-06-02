@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { useRef } from "react";
 import CustomHooks from "./CustomHooks";
-import React from "react";
 const Proyectos = () => {
   const [listProyectos] = useState([
     {
