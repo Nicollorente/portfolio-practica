@@ -14,8 +14,6 @@ const HamburgerIcon = (props) => {
   )
 }
 
-export default HamburgerIcon
-
 const Burguer = styled.div`
 
 .nav-icon-5{
@@ -69,3 +67,4 @@ const Burguer = styled.div`
   top: 13px;
 }
 `
+export default HamburgerIcon
